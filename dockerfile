@@ -2,6 +2,8 @@ FROM ubuntu
 
 MAINTAINER Kavita
 
+jira software
+
 RUN apt-get update 
 
 RUN apt-get install -y nginx
