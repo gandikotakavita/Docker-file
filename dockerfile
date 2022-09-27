@@ -2,7 +2,7 @@ FROM ubuntu
 
 MAINTAINER Kavita
 
-jira1 softwares
+jira1 softwares jira
 
 RUN apt-get update 
 
