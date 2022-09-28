@@ -13,7 +13,7 @@ pipeline {
     }
 
     stages {
-        //dsd
+      
 
         stage('git') {
 
