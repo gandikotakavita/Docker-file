@@ -26,6 +26,7 @@ pipeline {
         stage ('build image') {
             steps {
                 script {
+                    //nmnn
                      dockerImage = docker.build registry
                 }
             }
