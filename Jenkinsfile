@@ -8,7 +8,7 @@ pipeline {
 
         registryCredential = "6aea9c14-a837-4b8b-9120-df36647a8efb"
 
-    }
+    }m<m,M
 
     stages {
 
