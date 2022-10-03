@@ -1,4 +1,4 @@
-name: Check for Reviews
+name: Check for Review
 on:
   pull_request:
     types: [closed]
