@@ -12,7 +12,8 @@ jobs:
 
     - name: Reviewed
       id: verify_reviewers
-      uses: docker://rewindio/github-action-is-pr-approved
+      uses: docker://gandikotakavita/Docker-file
+
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
       with:
