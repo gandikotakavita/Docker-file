@@ -4,18 +4,18 @@ on:
   types: [closed]
   
 jobs:
-  check-reviews:
-  runs-on: ubuntu-latest
+   check-reviews:
+   runs-on: ubuntu-latest
   
-  steps:
-  -uses: actions/checkout@master
+   steps:
+   -uses: actions/checkout@master
   
-  -name: Reviewed
-  id: verify_reviewers
-  uses: docker://rewindio/github-action-is-pr-approved
-  env:
+   -name: Reviewed
+   id: verify_reviewers
+   uses: docker://rewindio/github-action-is-pr-approved
+   env:
     GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-  with:
+   with:
   
    REPO_ACCESS_PAT: "${{ secrets.GITHUB_TOKEN_WITH_REPO_ACCESS }}"
     
