@@ -1,8 +1,8 @@
-name:example action
+name: example action
 on:
+
   pull_request:
-  branches:
-   -master
+  branches: [ "master" ]
 
 jobs:
  example-action:
