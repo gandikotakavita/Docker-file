@@ -2,7 +2,7 @@ pipeline {
 
     agent any
 
-    environment {
+    environment {a
 
         registry = "kavithagandikota/pipelinex"
 
