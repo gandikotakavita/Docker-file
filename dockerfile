@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Kavita
+MAINTAINER Kavita G
 
 jira1 softwares jira
 
