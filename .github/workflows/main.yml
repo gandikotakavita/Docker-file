@@ -2,6 +2,9 @@ name: Check for Review
 on:
   pull_request:
     types: [closed]
+  repository_dispatch:
+    # this is the event_type passed in from the webhook, needs to match exactly what was defined in the webhook custom data payload
+    types: [ "event-triggered-by-jira" ]
 
 jobs:
   check-reviews:
